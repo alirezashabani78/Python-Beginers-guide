@@ -18,12 +18,11 @@ def random_string_1(b):
     return random.choice(b)
 def str_in_str(word, question):
     return word.lower() in question.lower()
-def
 email = input(str("type a email adress "))
 domain = "pop.ac.uk"
 if email_address(email, domain) is True:
     print ("Welcome " +(email [:-10]))
-    a = ["Kula", "Gary", "Steven", "Tony", "Adam"]
+    a = ["joe", "Gary", "Steven", "Tony", "Adam", "Linda"]
     print("Hello, my name is " + random_string(a) + ". i would be helping you today")
     count = 1
     while count <= 3:
