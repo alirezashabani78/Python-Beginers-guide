@@ -1,0 +1,6 @@
+print ("how many hoes ")
+hoes = (int(input()))
+print ("how many horny men ")
+horny_men = (int(input()))
+print ("The hoes will have " + str (int(horny_men / hoes)) + " each ")
+print ("poorly will "+ str (int(horny_men % hoes)) + " guys do not get anything tonight but they will save some cash")

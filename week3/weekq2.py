@@ -1,0 +1,6 @@
+print ('how many students')
+students = (int (input ()))
+print ('how many sweets')
+sweets = (int (input()))
+print ("The students will have "+str(int(sweets / students ))+" sweets each")
+print("The teacher will have "+ str (sweets % students) + " left over")
