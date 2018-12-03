@@ -35,7 +35,7 @@ if email_address(email, domain) is True:
             count += 1
             if count == 4:
                 print("connection has been lost")
-        elif "I need coffee" in question.lower():
+        elif "i need coffee" in question.lower():
             print("yes you doo")
             count += 1
             if count == 4:
